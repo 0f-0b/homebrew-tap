@@ -7,6 +7,12 @@ class Libhydrogen < Formula
   license "ISC"
   head "https://github.com/jedisct1/libhydrogen.git", branch: "master"
 
+  bottle do
+    root_url "https://github.com/0f-0b/homebrew-tap/releases/download/libhydrogen-0+20251020"
+    sha256 cellar: :any,                 arm64_tahoe:  "f0d6ec82168422d732eb1a7265a625d274e3fb39fc05502d4228c4c49d7a4741"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "eaaf5f13d4eb28f50cb1521a8b3bc0e3f07e15bacba3fbecde351266fae49c5c"
+  end
+
   depends_on "meson" => :build
   depends_on "ninja" => :build
 
