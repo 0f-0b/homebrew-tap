@@ -1,5 +1,9 @@
 # homebrew-tap
 
+Provides the following formulae:
+
+- `libhydrogen`
+
 ## How do I install these formulae?
 
 `brew install 0f-0b/tap/<formula>`
