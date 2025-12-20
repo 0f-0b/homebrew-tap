@@ -3,6 +3,7 @@
 Provides the following formulae:
 
 - `libhydrogen`
+- `zopfli`
 
 ## How do I install these formulae?
 
